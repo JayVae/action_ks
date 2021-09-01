@@ -42,3 +42,27 @@ jobs:
       env:
         KS_COOKIE: ${{secrets.KS_COOKIE}}
       name: "第三次"
+    - run: node tmp.js
+      env:
+        KS_COOKIE: ${{secrets.KS_COOKIE}}
+      name: "第四次"
+    - run: node tmp.js
+      env:
+        KS_COOKIE: ${{secrets.KS_COOKIE}}
+      name: "第五次"
+    - run: node tmp.js
+      env:
+        KS_COOKIE: ${{secrets.KS_COOKIE}}
+      name: "第六次"
+    - run: node tmp.js
+      env:
+        KS_COOKIE: ${{secrets.KS_COOKIE}}
+      name: "第7次"
+    - run: node tmp.js
+      env:
+        KS_COOKIE: ${{secrets.KS_COOKIE}}
+      name: "第8次"
+    - run: node tmp.js
+      env:
+        KS_COOKIE: ${{secrets.KS_COOKIE}}
+      name: "第9次"
