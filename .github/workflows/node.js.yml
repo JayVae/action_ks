@@ -32,3 +32,13 @@ jobs:
     - run: node tmp.js
       env:
         KS_COOKIE: ${{secrets.KS_COOKIE}}
+      name: "第一次"
+
+    - run: node tmp.js
+      env:
+        KS_COOKIE: ${{secrets.KS_COOKIE}}
+      name: "第二次"
+    - run: node tmp.js
+      env:
+        KS_COOKIE: ${{secrets.KS_COOKIE}}
+      name: "第三次"
